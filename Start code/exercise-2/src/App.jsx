@@ -7,8 +7,6 @@ function App() {
   /* You will need a function to handle a key pressed on the first input and update the state*/
   const handleSubmit = (event) => {
     event.preventDefault();
-    const upperText = text.toUpperCase();
-    document.getElementById('result').value = upperText;
   }
 
   const handleInput = (event) => {
